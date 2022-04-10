@@ -1,7 +1,9 @@
+import styles from '../../styles/header.module.scss'
+
 export default function Header() {
   return (
-    <header>
-      <h1>casebycase</h1>
+    <header id={styles.container}>
+      <h1 className={styles.title}>casebycase</h1>
     </header>
   )
 }
